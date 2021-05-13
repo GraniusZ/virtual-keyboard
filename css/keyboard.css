@@ -1,0 +1,66 @@
+.keyboard{
+    display: flex;
+    min-height: 400px;
+    max-width: 1000px;
+    background-color: rgb(194, 189, 199);
+    margin-top:300px;
+    border-color: black;
+    border: 3px solid;
+    padding: 5px 30px 0px 30px;
+
+}
+
+.buttons{
+    min-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.button{
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 5px;
+}
+.classic-button{
+    max-height: 70px;
+    min-width: 70px;
+}
+.numbers{
+    min-width: 100%;
+    max-height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-button{
+    min-height: 45px;
+    min-width: 70px;
+    margin: 0px 10px 0px;
+}
+.del-button{
+    max-height: 70px;
+    min-width: 100px;
+}
+.enter-button{
+    max-height: 70px;
+    min-width: 177px;
+}
+.caps-button{
+    max-height: 70px;
+    min-width: 100px;
+}
+
+.space-div{
+    max-height: 70px;
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.space{
+    
+    max-height: 70px;
+    min-width: 500px;
+}
