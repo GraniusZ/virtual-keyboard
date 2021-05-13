@@ -1,6 +1,7 @@
 @import "keyboard.css";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -131,6 +132,7 @@ h6 {
     display: flex;
     align-self: flex-end;
     margin-left:auto;
+    padding: 0px 30px 20px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -160,22 +162,29 @@ h6 {
 .text-field {
     margin-top: 100px;
     display: flex;
-    min-width: 500px;
-    height: 80px;
+    min-width: 800px;
+    min-height: 300px;
     background-color: rgba(6, 144, 223, 0.5);
     justify-content: center;
     align-items: center;
-    padding: 3px;
+    border: 3px solid;
+    border-color: black;
+    
 }
 
 .text {
-    display: inline-flex;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    resize: none;
+    min-height: 300px;
     min-width: 100%;
-    min-height: 100%;
     align-items: center;
-    font-size: 50px;
+    font-size: 25px;
+    overflow:  hidden;
     opacity: 1;
     display: inline-flex;
     background-color: white;
     justify-content: center;
+    padding: 7px;
+    cursor: text;
 }

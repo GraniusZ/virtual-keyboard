@@ -3,7 +3,7 @@
     min-height: 400px;
     max-width: 1000px;
     background-color: rgb(194, 189, 199);
-    margin-top:300px;
+    margin-top:150px;
     border-color: black;
     border: 3px solid;
     padding: 5px 30px 0px 30px;
@@ -44,9 +44,14 @@
     max-height: 70px;
     min-width: 100px;
 }
-.enter-button{
+.enter-button {
+    
     max-height: 70px;
     min-width: 177px;
+}
+.enter-button h6{
+    font-size: 12px;
+    font-style: oblique;
 }
 .caps-button{
     max-height: 70px;
