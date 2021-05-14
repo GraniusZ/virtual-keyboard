@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -167,7 +171,7 @@ h6 {
     background-color: rgba(6, 144, 223, 0.5);
     justify-content: center;
     align-items: center;
-    border: 3px solid;
+    border: 2px solid;
     border-color: black;
     
 }
@@ -180,7 +184,7 @@ h6 {
     min-width: 100%;
     align-items: center;
     font-size: 25px;
-    overflow:  hidden;
+    overflow:  auto;
     opacity: 1;
     display: inline-flex;
     background-color: white;

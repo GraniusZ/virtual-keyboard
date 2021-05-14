@@ -5,8 +5,10 @@
     background-color: rgb(194, 189, 199);
     margin-top:150px;
     border-color: black;
-    border: 3px solid;
+    border: 2px solid;
     padding: 5px 30px 0px 30px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -19,10 +21,14 @@
 }
 
 .button{
-    border: 2px solid;
+    display: inline-flex;
     border-radius: 10px;
     background-color: gray;
     margin: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
 }
 .classic-button{
     max-height: 70px;
@@ -49,13 +55,21 @@
     max-height: 70px;
     min-width: 177px;
 }
-.enter-button h6{
-    font-size: 12px;
-    font-style: oblique;
-}
+
 .caps-button{
+    
     max-height: 70px;
     min-width: 100px;
+}
+.caps-button-text{
+    position: absolute;
+    display: inline-block;
+}
+
+.caps-button-activated{
+    color: rgb(20, 163, 39);
+    font-weight: bold;
+    opacity: 0.7;
 }
 
 .space-div{

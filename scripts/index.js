@@ -1,8 +1,12 @@
 import classicButtons from "./classicButtons.js";
 import deleteButton from "./deleteButton.js";
 import spaceButton from "./spaceButton.js";
+import enterButton from "./enterButton.js";
+import capsButton from "./capsButton.js";
 
 window.onload = () => (document.querySelector("#textInput").value = "");
+
+
 
 let classicbuttons = document.querySelectorAll(".classic-button");
 classicbuttons.forEach((elem) => {
@@ -21,7 +25,7 @@ numberbuttons.forEach((elem) => {
         "click",
         function (e) {
             let id = elem.id;
-            classisButtons(id);
+            classicButtons(id);
         },
         false
     );
@@ -45,3 +49,27 @@ spacebut.addEventListener(
   },
   false
 );
+
+
+let enterbut = document.querySelector("#enter");
+enterbut.addEventListener(
+  "click",
+  function (e) {
+      enterButton();
+      
+  },
+  false
+);
+
+let caps = document.querySelector("#caps");
+let capsText = document.querySelector("#caps-text");
+
+caps.addEventListener(
+    "click",
+    function (e) {
+        capsButton(capsText.id);
+        
+    },
+    false
+  );
+
